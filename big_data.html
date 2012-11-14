@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Ryan Faulkner
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20100529
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Ryan Faulkner - Computer Science at McGill</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17701117-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header">
+			<div id="logo">
+				<br><h2><a href="#">Ryan Faulkner</a></h2> <h3>Computer Science - McGill University</h3>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="http://www.cs.mcgill.ca/~rfaulk/index.html">Home</a></li>
+					<li><a href="http://www.cs.mcgill.ca/~rfaulk/papers.html">Papers</a></li>
+					<li><a href="http://www.cs.mcgill.ca/~rfaulk/projects.html">Projects</a></li>
+					<li><a href="http://www.cs.mcgill.ca/~rfaulk/blog.html">Blog</a></li>
+					<li><a href="http://www.cs.mcgill.ca/~rfaulk/links.html">Links</a></li>
+					<li><a href="http://www.cs.mcgill.ca/~rfaulk/contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+				<div id="content">
+				</div>
+				<h2 class="title">Big Data</h2><br>
+
+				<p style="color: black">
+
+				This week I attended the Strata "Big Data" conference in Santa Clara, and one of the major themes was the so called "noSQL" database movement.  From my incomplete understanding,
+				this name functions as a blanket term for a group of data management systems that tend not to be relational and support some sort of distributed management, necessitated by the increasingly large datasets that are springing up.
+				This will become even more important as data becomes more information rich and less structured and demands on fast intelligent algorithms are increasingly large.
+				There are a couple of concepts that have helped in my understanding of these distinctions.
+
+				</p>
+
+				<p style="color: black">
+
+				First is denormalization, or non-normalized data, where the relational structure of data is removed, allowing data to be easily stored in the absence of a relational schema.
+				This natrally leads to scenarios where columns are dynamically determined and each column of a data record is indexed.  The idea here is that huge amounts of storage are cheap and at our
+				disposal.  Sharding is a second core concept which refers to the distributed structure of a data management system and how it alots distibuted processing and storage of the data.
+				In my current understanding an implementation of this technique is the much bandied <a href="http://en.wikipedia.org/wiki/MapReduce">Map Reduce</a> algorithm which determines how to break data up among a
+				set of distributed nodes.
+
+				</p>
+
+				<p style="color: black">
+
+				Of course many of the talks were far more applied and focused on the consumption of these systems and how large scale users were leveraging them.  Some open-source implementations that
+				received a lot of the attention included Cassandra (initially developed at Facebook), and Hadoop with Map Reduce.  It can be tricky classifying these systems together as they each have different
+				strengths and depending on the users needs.  However, overall it seems that the idea of a database has become a more abstract and consequently more involved and complex entity.  There is no longer a
+				fixed definition of how to manage, store, and process large data stores.
+
+				</p>
+
+				<p style="color: black">
+
+				Aside from this there were some great talks and the presence of a lot of the larger tech companies that are sitting at the forefront of "big data" management.  There wasn't a huge deal of
+				theory in the content of the talks and where it did slip in the prespective was typically very high-level and simplified.
+				An exception to this trend was <a href="http://www-etud.iro.umontreal.ca/~turian/">Joseph Turian's</a> talk on <a href="http://strataconf.com/strata2011/public/schedule/detail/16934">New Developments on Data Techniques</a>
+				which feratured a great high-level run through of deep belief networks in addition to content discussing, Semantic Hashing, Graph Paralellism, and Semantic Parsing to paint an elegant
+				picture of techniques that could very well become a central feature of the future of search.
+
+				</p>
+
+				<!-- end #content -->
+
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- end #page -->
+</div>
+<div id="footer">
+	<p>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>
+http://www.djangoproject.com/
