@@ -1,0 +1,5 @@
+/**
+ *  McGill homepage home javascript
+ */
+
+
