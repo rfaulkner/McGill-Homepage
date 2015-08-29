@@ -1,3 +1,3 @@
 #!/bin/bash
 # Script to deploy to vagrant dev instance
-rsync -azPr -e . rfaulk@mimi.cs.mcgill.ca:/home/ml/rfaulk/public_html/ > push.log
+rsync -azPr . rfaulk@mimi.cs.mcgill.ca:/home/ml/rfaulk/public_stage/ > push.log
